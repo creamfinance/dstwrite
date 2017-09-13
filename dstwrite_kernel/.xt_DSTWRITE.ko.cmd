@@ -1,0 +1,1 @@
+cmd_/data/kernel/dstwrite/dstwrite_kernel/xt_DSTWRITE.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /data/kernel/dstwrite/dstwrite_kernel/xt_DSTWRITE.ko /data/kernel/dstwrite/dstwrite_kernel/xt_DSTWRITE.o /data/kernel/dstwrite/dstwrite_kernel/xt_DSTWRITE.mod.o ;  true
